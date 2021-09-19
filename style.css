@@ -1,14 +1,5 @@
 /*-----------------------------------------------------------------------------------
     
-    Template Name: Oestin
-    Template URI: https://devitems.com/html/oestin-preview/
-    Description: This is html5 template
-    Author: HasTech
-    Author URI: https://devitems.com/
-    Version: 1.0
-    
------------------------------------------------------------------------------------
-    
     CSS INDEX
     ===================
 	
@@ -30,13 +21,21 @@
     16. Contact Page
 
 -----------------------------------------------------------------------------------*/
+
+
 /* Global css */
+
 a {
     text-decoration: none;
 }
+
+
 /*----------------------------------------*/
+
+
 /*  1. About Area
 /*----------------------------------------*/
+
 form.search-form {
     background: #ffffff none repeat scroll 0 0;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.1);
@@ -97,6 +96,7 @@ form.search-form {
     top: 14px;
     z-index: 1;
 }
+
 
 /* .box-select .select::after {
     content: "\f331";
@@ -199,9 +199,13 @@ form.search-form {
     opacity: 1
 }
 
+
 /*----------------------------------------*/
+
+
 /*  2. Room Area
 /*----------------------------------------*/
+
 .room-area .container-fluid {
     padding: 0;
 }
@@ -387,13 +391,16 @@ form.search-form {
     bottom: 26%;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  3. Services Area
 /*----------------------------------------*/
+
 .nav.nav-tabs {
     border: 0 none;
 }
-
 
 .nav-tabs>li>a {
     background: #f1f1f1 !important;
@@ -430,13 +437,16 @@ span.image {
     width: 100%;
     position: relative;
 }
-.nav-tabs .nav-item.show .nav-link, 
-.nav-tabs .nav-link.active{
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     background-color: #b5876d !important;
 }
-.nav-tabs .nav-link.active .text{
+
+.nav-tabs .nav-link.active .text {
     color: #fff;
 }
+
 .nav-tabs .nav-link.active .title {
     color: #fff;
 }
@@ -459,16 +469,22 @@ span.image.s-img {
     display: block;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  4. Fun Factor Area
 /*----------------------------------------*/
+
 .fun-factor-area {
     padding: 57px 0 69px;
     z-index: -2;
 }
-.fun-factor-area.overlay-dark:before{
+
+.fun-factor-area.overlay-dark:before {
     z-index: -1;
 }
+
 .single-fun-factor>h1 {
     color: #ffffff;
     font-family: "Lato", sans-serif;
@@ -484,15 +500,22 @@ span.image.s-img {
     padding-top: 17px;
     text-transform: uppercase;
 }
+
 .advertise-area {
     z-index: -2;
 }
-.advertise-area.overlay-dark:before{
+
+.advertise-area.overlay-dark:before {
     z-index: -1;
 }
+
+
 /*----------------------------------------*/
+
+
 /*  5. Gallery Area
 /*----------------------------------------*/
+
 .gallery-item {
     width: 25%;
     overflow: hidden;
@@ -604,9 +627,13 @@ span.image.s-img {
     display: block;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  6. Team Area
 /*----------------------------------------*/
+
 .single-team {
     position: relative;
     text-align: center;
@@ -702,9 +729,13 @@ span.image.s-img {
     margin-bottom: 50px
 }
 
+
 /*----------------------------------------*/
+
+
 /*  7. Advertise Area
 /*----------------------------------------*/
+
 .advertise-text {
     overflow: hidden;
     padding: 75px 0;
@@ -729,9 +760,13 @@ span.image.s-img {
     text-transform: uppercase;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  8. Pricing Area
 /*----------------------------------------*/
+
 .package-name>h3 {
     color: #252525;
     font-family: "Lato", sans-serif;
@@ -832,9 +867,13 @@ span.image.s-img {
     color: #bbbbbb;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  9. Blog Area
 /*----------------------------------------*/
+
 .single-blog-wrapper {
     position: relative;
     overflow: hidden
@@ -998,9 +1037,13 @@ span.image.s-img {
     transition-delay: 2.3s;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  10. Client Area
 /*----------------------------------------*/
+
 .client-area {
     padding: 68px 0 61px;
 }
@@ -1031,9 +1074,13 @@ span.image.s-img {
     display: block;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  11. Newsletter Area
 /*----------------------------------------*/
+
 .newsletter-container h3 {
     float: left;
     line-height: 38px;
@@ -1100,9 +1147,13 @@ span.image.s-img {
     color: #fff
 }
 
+
 /*----------------------------------------*/
+
+
 /*  12. Room Grid / List Page
 /*----------------------------------------*/
+
 .room-grid {
     position: relative;
 }
@@ -1244,6 +1295,7 @@ span.image.s-img {
     width: 150px;
 }
 
+
 /* .room-list-text {
     padding-bottom: 48px;
     padding-top: 58px;
@@ -1261,9 +1313,13 @@ span.image.s-img {
     box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 /*----------------------------------------*/
+
+
 /*  13. Room Details Page
 /*----------------------------------------*/
+
 .slick-list {
     padding: 0 !important
 }
@@ -1549,9 +1605,13 @@ span.image.s-img {
     padding: 0 80px;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  14. Location Page
 /*----------------------------------------*/
+
 .location-image a {
     display: block;
     position: relative;
@@ -1632,9 +1692,13 @@ span.image.s-img {
     margin-bottom: 70px;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  15. Event Page
 /*----------------------------------------*/
+
 .event-items {
     margin-left: -5px;
     margin-right: -5px
@@ -1746,14 +1810,19 @@ span.image.s-img {
     margin: 0;
 }
 
+
 /*----------------------------------------*/
+
+
 /*  16. Contact Page
 /*----------------------------------------*/
+
 .contact-map {
     height: 600px;
     width: 100%;
     display: block;
 }
+
 h4.contact-title {
     font-size: 24px;
     line-height: 18px;
@@ -1842,4 +1911,3 @@ span.c-text {
 #contact-form button.default-btn::before {
     background: #333333 none repeat scroll 0 0;
 }
-
